@@ -34,5 +34,3 @@ Si deseas contribuir a este proyecto, sigue los siguientes pasos:
 5. Haz commit de tus cambios y realiza un push a tu rama.
 6. Crea un pull request a la rama principal del proyecto.
 7. Espera a que tu pull request sea revisado y aceptado.
-
-asd
