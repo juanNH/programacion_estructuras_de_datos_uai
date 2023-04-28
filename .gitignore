@@ -1,0 +1,54 @@
+# Archivos de configuración
+*.config
+*.config.user
+
+# Archivos de salida de compilación
+bin/
+obj/
+
+# Archivos de respaldo y de caché
+[Tt]humbs.db
+*.bak
+*.cache
+*.log
+*.vs
+*.suo
+
+# Archivos generados por Visual Studio
+[Bb]uild/
+[Rr]elease/
+[Dd]ebug/
+obj/
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*.scc
+*.tlh
+*.tli
+*.tlb
+*.map
+*.manifest
+*.res
+*.tlp
+*.tmp
+*.sln.docstates
+*.sln.bin
+
+# Archivos generados por ReSharper
+_ReSharper*
+
+# Archivos generados por Rider
+.idea/
+*.sln.iml
+
+# Archivos de caché de NuGet
+packages/
+*.nupkg
+*.paket.restore.hashes
+
+# Archivos de caché de Cake
+tools/packages/
