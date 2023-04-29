@@ -16,7 +16,6 @@ namespace WindowsFormsApp1.tp4
 
         ListPaciente listPacientes = new ListPaciente();
 
-        NodoPaciente nodoPaciente;
         public Ej1tp4()
         {
             InitializeComponent();

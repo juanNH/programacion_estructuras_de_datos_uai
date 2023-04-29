@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.tp4;
+using WindowsFormsApp1.tp4.ej2;
 
 namespace WindowsFormsApp1
 {
@@ -98,6 +99,12 @@ namespace WindowsFormsApp1
         {
             Ej1tp4 ej1tp4 = new Ej1tp4();
             ej1tp4.ShowDialog();
+        }
+
+        private void ej2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Ej2Tp4 ej2tp4 = new Ej2Tp4();
+            ej2tp4.ShowDialog();
         }
     }
 }
