@@ -50,7 +50,6 @@
             this.listaCliente.Name = "listaCliente";
             this.listaCliente.Size = new System.Drawing.Size(120, 407);
             this.listaCliente.TabIndex = 0;
-            this.listaCliente.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // apellidosBox
             // 

@@ -13,14 +13,19 @@ namespace WindowsFormsApp1.tp4.ej3
     public partial class Ej3Tp4 : Form
     {
         ListCliente listCliente = new ListCliente();
+        int maxFila = new Random().Next(1, 3);
         public Ej3Tp4()
         {
             InitializeComponent();
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void checkValidation()
         {
-
+            if(maxFila != listaCliente.Items.Count)
+            {
+                return;
+            }
+            MessageBox.Show("La ganancia total es de: $" +listCliente.contadorDeGanancia().ToString()+" en un total de "+ maxFila.ToString()+" personas en la fila.");
         }
         private void resetData()
         {
@@ -63,6 +68,7 @@ namespace WindowsFormsApp1.tp4.ej3
             int edad = rd.Next(5, 60);
             listCliente.AgregarFinal(dni, edad, nombres, apellidos);
             renderLista();
+            checkValidation();
         }
 
         private void eliminarButton_Click(object sender, EventArgs e)
@@ -123,6 +129,7 @@ namespace WindowsFormsApp1.tp4.ej3
             int edad = rd.Next(5, 60);
             listCliente.AgregarSiguiente(dni, edad, nombres, apellidos, dniBuscar);
             renderLista();
+            checkValidation();
         }
     }
 }
