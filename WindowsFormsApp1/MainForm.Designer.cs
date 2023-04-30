@@ -46,6 +46,7 @@
             this.tP4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ej1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ej2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ej3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -175,7 +176,8 @@
             // 
             this.tP4ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ej1ToolStripMenuItem,
-            this.ej2ToolStripMenuItem});
+            this.ej2ToolStripMenuItem,
+            this.ej3ToolStripMenuItem});
             this.tP4ToolStripMenuItem.Name = "tP4ToolStripMenuItem";
             this.tP4ToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
             this.tP4ToolStripMenuItem.Text = "TP 4";
@@ -184,7 +186,7 @@
             // 
             this.ej1ToolStripMenuItem.Name = "ej1ToolStripMenuItem";
             this.ej1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.ej1ToolStripMenuItem.Text = "Ej1";
+            this.ej1ToolStripMenuItem.Text = "Ej 1";
             this.ej1ToolStripMenuItem.Click += new System.EventHandler(this.ej1ToolStripMenuItem_Click);
             // 
             // ej2ToolStripMenuItem
@@ -193,6 +195,13 @@
             this.ej2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.ej2ToolStripMenuItem.Text = "Ej 2";
             this.ej2ToolStripMenuItem.Click += new System.EventHandler(this.ej2ToolStripMenuItem_Click);
+            // 
+            // ej3ToolStripMenuItem
+            // 
+            this.ej3ToolStripMenuItem.Name = "ej3ToolStripMenuItem";
+            this.ej3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ej3ToolStripMenuItem.Text = "Ej 3";
+            this.ej3ToolStripMenuItem.Click += new System.EventHandler(this.ej3ToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -235,5 +244,6 @@
         private System.Windows.Forms.ToolStripMenuItem tP4ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ej1ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ej2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ej3ToolStripMenuItem;
     }
 }
