@@ -26,6 +26,18 @@ namespace WindowsFormsApp1.tp4.ej3
             NodoCliente nodoFinal = getNodoClienteFinal(nodoInicio);
             nodoFinal.Siguiente = nodoCliente;
         }
+        public int contadorDeGanancia()
+        {
+            return ganancias(nodoInicio, 0);
+        }
+        public int ganancias(NodoCliente nodo, int gananciaActual)
+        {
+            if (nodo == null)
+            {
+                return gananciaActual;
+            }
+            return ganancias(nodo.Siguiente, gananciaActual + nodo.edad);
+        }
         public void AgregarSiguiente(int dni, int edad, string nombres, string apellidos, int dniBuscar)
         {
             NodoCliente nodoCliente = new NodoCliente
