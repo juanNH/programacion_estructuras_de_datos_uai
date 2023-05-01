@@ -156,6 +156,14 @@
     </Compile>
     <Compile Include="tp4\ej3\ListCliente.cs" />
     <Compile Include="tp4\ej3\NodoCliente.cs" />
+    <Compile Include="tp4\ej4\Ej4Tp4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tp4\ej4\Ej4Tp4.Designer.cs">
+      <DependentUpon>Ej4Tp4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tp4\ej4\ListAlumnos.cs" />
+    <Compile Include="tp4\ej4\NodoAlumno.cs" />
     <EmbeddedResource Include="tp3\Ej1.resx">
       <DependentUpon>Ej1.cs</DependentUpon>
     </EmbeddedResource>
@@ -215,6 +223,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="tp4\ej3\Ej3Tp4.resx">
       <DependentUpon>Ej3Tp4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tp4\ej4\Ej4Tp4.resx">
+      <DependentUpon>Ej4Tp4.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
