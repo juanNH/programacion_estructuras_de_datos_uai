@@ -50,6 +50,8 @@
             this.ej4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tP5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ej1ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.ej2ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.ej3ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -218,7 +220,9 @@
             // tP5ToolStripMenuItem
             // 
             this.tP5ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ej1ToolStripMenuItem1});
+            this.ej1ToolStripMenuItem1,
+            this.ej2ToolStripMenuItem1,
+            this.ej3ToolStripMenuItem1});
             this.tP5ToolStripMenuItem.Name = "tP5ToolStripMenuItem";
             this.tP5ToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
             this.tP5ToolStripMenuItem.Text = "TP 5";
@@ -229,6 +233,20 @@
             this.ej1ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.ej1ToolStripMenuItem1.Text = "Ej 1";
             this.ej1ToolStripMenuItem1.Click += new System.EventHandler(this.ej1ToolStripMenuItem1_Click);
+            // 
+            // ej2ToolStripMenuItem1
+            // 
+            this.ej2ToolStripMenuItem1.Name = "ej2ToolStripMenuItem1";
+            this.ej2ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.ej2ToolStripMenuItem1.Text = "Ej 2";
+            this.ej2ToolStripMenuItem1.Click += new System.EventHandler(this.ej2ToolStripMenuItem1_Click);
+            // 
+            // ej3ToolStripMenuItem1
+            // 
+            this.ej3ToolStripMenuItem1.Name = "ej3ToolStripMenuItem1";
+            this.ej3ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.ej3ToolStripMenuItem1.Text = "Ej 3";
+            this.ej3ToolStripMenuItem1.Click += new System.EventHandler(this.ej3ToolStripMenuItem1_Click);
             // 
             // MainForm
             // 
@@ -275,5 +293,7 @@
         private System.Windows.Forms.ToolStripMenuItem ej4ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tP5ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ej1ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem ej2ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem ej3ToolStripMenuItem1;
     }
 }

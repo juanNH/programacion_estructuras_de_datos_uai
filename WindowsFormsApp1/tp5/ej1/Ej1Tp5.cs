@@ -50,7 +50,7 @@ namespace WindowsFormsApp1.tp5.ej1
         
         private void eliminarButton_Click(object sender, EventArgs e)
         {
-            if(containerLista.SelectedItems == null)
+            if(containerLista.SelectedItem == null)
             {
                 return;
             }
