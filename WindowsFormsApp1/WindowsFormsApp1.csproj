@@ -172,6 +172,22 @@
     </Compile>
     <Compile Include="tp5\ej1\ListContainer.cs" />
     <Compile Include="tp5\ej1\NodoContainer.cs" />
+    <Compile Include="tp5\ej2\Ej2Tp5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tp5\ej2\Ej2Tp5.Designer.cs">
+      <DependentUpon>Ej2Tp5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tp5\ej2\NodoPueblo.cs" />
+    <Compile Include="tp5\ej2\PuebloList.cs" />
+    <Compile Include="tp5\ej3\Ej3Tp5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tp5\ej3\Ej3Tp5.Designer.cs">
+      <DependentUpon>Ej3Tp5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tp5\ej3\ListExp.cs" />
+    <Compile Include="tp5\ej3\NodoExpcs.cs" />
     <EmbeddedResource Include="tp3\Ej1.resx">
       <DependentUpon>Ej1.cs</DependentUpon>
     </EmbeddedResource>
@@ -237,6 +253,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="tp5\ej1\Ej1Tp5.resx">
       <DependentUpon>Ej1Tp5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tp5\ej2\Ej2Tp5.resx">
+      <DependentUpon>Ej2Tp5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tp5\ej3\Ej3Tp5.resx">
+      <DependentUpon>Ej3Tp5.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
