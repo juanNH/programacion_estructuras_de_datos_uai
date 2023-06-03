@@ -8,7 +8,7 @@ namespace WindowsFormsApp1.tp5.ej1
 {
     public class ListContainer
     {
-        public NodoContainer NodoInicial;
+        private NodoContainer NodoInicial;
 
         public void Push(int id)
         {
@@ -24,6 +24,10 @@ namespace WindowsFormsApp1.tp5.ej1
                 return;
             }
             NodoInicial = NodoInicial.Siguiente;
+        }
+        public NodoContainer Peak()
+        {
+            return NodoInicial;
         }
     }
 }
