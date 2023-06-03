@@ -12,8 +12,8 @@ namespace WindowsFormsApp1.tp5.ej1
 {
     public partial class Ej1Tp5 : Form
     {
-        public ListContainer ContainerList = new ListContainer();
-        public ListContainer ContainerListAux = new ListContainer();
+        public ListContainer pila = new ListContainer();
+        public ListContainer pilaAux = new ListContainer();
 
         public Ej1Tp5()
         {
@@ -23,7 +23,7 @@ namespace WindowsFormsApp1.tp5.ej1
         private void Listar()
         {
             containerLista.Items.Clear();
-            Agregar(ContainerList.NodoInicial);
+            Agregar(pila.Peak());
 
         }
         private void Agregar(NodoContainer nodo)
@@ -38,13 +38,13 @@ namespace WindowsFormsApp1.tp5.ej1
 
         private void pushButton_Click(object sender, EventArgs e)
         {
-            ContainerList.Push(int.Parse(idBox.Text));
+            pila.Push(int.Parse(idBox.Text));
             Listar();
         }
 
         private void popButton_Click(object sender, EventArgs e)
         {
-            ContainerList.Pop();
+            pila.Pop();
             Listar();
         }
         
@@ -59,8 +59,8 @@ namespace WindowsFormsApp1.tp5.ej1
             Listar();
         }
         private void removeIdSelected(int id) {
-            checkList(ContainerList.NodoInicial, id);
-            addAuxListToList(ContainerListAux.NodoInicial);
+            checkList(pila.Peak(), id);
+            addAuxListToList(pilaAux.Peak());
         }
         private void addAuxListToList(NodoContainer nodo)
         {
@@ -68,19 +68,19 @@ namespace WindowsFormsApp1.tp5.ej1
             {
                 return;
             }
-            ContainerList.Push(nodo.identificador);
-            ContainerListAux.Pop();
+            pila.Push(nodo.identificador);
+            pilaAux.Pop();
             addAuxListToList(nodo.Siguiente);
         }
         private void checkList(NodoContainer nodo, int id)
         {
             if(nodo.identificador == id)
             {
-                ContainerList.Pop();
+                pila.Pop();
                 return;
             }
-            ContainerListAux.Push(nodo.identificador);
-            ContainerList.Pop();
+            pilaAux.Push(nodo.identificador);
+            pila.Pop();
             checkList(nodo.Siguiente, id);
         }
     }

@@ -26,14 +26,15 @@ namespace WindowsFormsApp1.tp4.ej4
         {
             if(nodo == null)
             {
-                return;
-            }
-            listaBox.Items.Add(nodo.getDniNombre());
+                listaBox.Items.Add(nodo.getDniNombre());
 
-            if (nodo.Siguiente != nodoInicio)
-            {
-                listar(nodo.Siguiente, nodoInicio);
+                if (nodo.Siguiente != nodoInicio)
+                {
+                    listar(nodo.Siguiente, nodoInicio);
+
+                }
             }
+            
         }
         private void valoresDefault()
         {

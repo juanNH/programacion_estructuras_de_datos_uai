@@ -29,3 +29,4 @@ D:\Escritorio\Facultad\2 cuatri\programacion\clase3\tp3\WindowsFormsApp1\Windows
 D:\Escritorio\Facultad\2 cuatri\programacion\clase3\tp3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.tp5.ej1.Ej1Tp5.resources
 D:\Escritorio\Facultad\2 cuatri\programacion\clase3\tp3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.tp5.ej2.Ej2Tp5.resources
 D:\Escritorio\Facultad\2 cuatri\programacion\clase3\tp3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.tp5.ej3.Ej3Tp5.resources
+D:\Escritorio\Facultad\2 cuatri\programacion\clase3\tp3\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.tp7._1.Ej0Tp7.resources

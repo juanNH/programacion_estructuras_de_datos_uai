@@ -14,6 +14,7 @@ using WindowsFormsApp1.tp4.ej4;
 using WindowsFormsApp1.tp5.ej1;
 using WindowsFormsApp1.tp5.ej2;
 using WindowsFormsApp1.tp5.ej3;
+using WindowsFormsApp1.tp7._1;
 
 namespace WindowsFormsApp1
 {
@@ -140,6 +141,12 @@ namespace WindowsFormsApp1
         {
             Ej3Tp5 ej3tp5 = new Ej3Tp5();
             ej3tp5.ShowDialog();
+        }
+
+        private void ej0ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Ej0Tp7 ej0tp7 = new Ej0Tp7();
+            ej0tp7.ShowDialog();
         }
     }
 }

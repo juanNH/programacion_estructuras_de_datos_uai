@@ -52,6 +52,8 @@
             this.ej1ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.ej2ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.ej3ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.tP7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ej0ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,7 +62,8 @@
             this.menuStrip3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tP3ToolStripMenuItem,
             this.tP4ToolStripMenuItem,
-            this.tP5ToolStripMenuItem});
+            this.tP5ToolStripMenuItem,
+            this.tP7ToolStripMenuItem});
             this.menuStrip3.Location = new System.Drawing.Point(0, 0);
             this.menuStrip3.Name = "menuStrip3";
             this.menuStrip3.Size = new System.Drawing.Size(431, 24);
@@ -230,23 +233,38 @@
             // ej1ToolStripMenuItem1
             // 
             this.ej1ToolStripMenuItem1.Name = "ej1ToolStripMenuItem1";
-            this.ej1ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.ej1ToolStripMenuItem1.Size = new System.Drawing.Size(92, 22);
             this.ej1ToolStripMenuItem1.Text = "Ej 1";
             this.ej1ToolStripMenuItem1.Click += new System.EventHandler(this.ej1ToolStripMenuItem1_Click);
             // 
             // ej2ToolStripMenuItem1
             // 
             this.ej2ToolStripMenuItem1.Name = "ej2ToolStripMenuItem1";
-            this.ej2ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.ej2ToolStripMenuItem1.Size = new System.Drawing.Size(92, 22);
             this.ej2ToolStripMenuItem1.Text = "Ej 2";
             this.ej2ToolStripMenuItem1.Click += new System.EventHandler(this.ej2ToolStripMenuItem1_Click);
             // 
             // ej3ToolStripMenuItem1
             // 
             this.ej3ToolStripMenuItem1.Name = "ej3ToolStripMenuItem1";
-            this.ej3ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.ej3ToolStripMenuItem1.Size = new System.Drawing.Size(92, 22);
             this.ej3ToolStripMenuItem1.Text = "Ej 3";
             this.ej3ToolStripMenuItem1.Click += new System.EventHandler(this.ej3ToolStripMenuItem1_Click);
+            // 
+            // tP7ToolStripMenuItem
+            // 
+            this.tP7ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ej0ToolStripMenuItem});
+            this.tP7ToolStripMenuItem.Name = "tP7ToolStripMenuItem";
+            this.tP7ToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
+            this.tP7ToolStripMenuItem.Text = "TP7";
+            // 
+            // ej0ToolStripMenuItem
+            // 
+            this.ej0ToolStripMenuItem.Name = "ej0ToolStripMenuItem";
+            this.ej0ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ej0ToolStripMenuItem.Text = "Ej0";
+            this.ej0ToolStripMenuItem.Click += new System.EventHandler(this.ej0ToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -295,5 +313,7 @@
         private System.Windows.Forms.ToolStripMenuItem ej1ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem ej2ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem ej3ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem tP7ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ej0ToolStripMenuItem;
     }
 }
